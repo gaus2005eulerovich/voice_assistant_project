@@ -3,13 +3,17 @@ from django.db import models
 class MessageHistory(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
+
 class User(models.Model):
     telegram_id = models.BigIntegerField(unique=True)
-    name = models.CharField(max_length=255)
+
+    user_name = models.CharField(max_length=255)
     history = models.OneToOneField(
         MessageHistory,
         on_delete=models.CASCADE,
-        related_name='user'
+        related_name='user',
+        null=True,
+        blank=True,
     )
     created_at = models.DateTimeField(auto_now_add=True)
 
