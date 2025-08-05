@@ -5,7 +5,7 @@ from aiogram.filters import Command
 import requests
 
 # Настройки
-TOKEN = os.getenv("7458164131:AAFARdF09zU1p5QI8V5HP5V-SDKJ-uUxYq0")
+
 SERVER_URL = "https://wfxf1i-62-217-184-194.ru.tuna.am"
 
 # Инициализация
