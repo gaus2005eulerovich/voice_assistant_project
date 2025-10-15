@@ -9,7 +9,7 @@ import tempfile
 import os
 import pyttsx3
 import uuid
-from django.conf import settings  # ← ДОБАВЛЕНО
+from django.conf import settings  
 
 
 @csrf_exempt

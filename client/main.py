@@ -8,8 +8,6 @@ from aiogram.filters import CommandStart, Command
 import aiohttp
 from aiogram.types import FSInputFile
 
-
-
 TOKEN = "7458164131:AAFARdF09zU1p5QI8V5HP5V-SDKJ-uUxYq0"
 API_URL = "http://127.0.0.1:8000/bot/create_user/"
 
